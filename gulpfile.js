@@ -16,7 +16,7 @@ function styles() {
 }
 
 function images() {
-    return gulp.src('./src/images/**/*')
+    return gulp.src('./src/Images/**/*')
         .pipe(imagemin())
         .pipe(gulp.dest('./dist/images'));
 }
